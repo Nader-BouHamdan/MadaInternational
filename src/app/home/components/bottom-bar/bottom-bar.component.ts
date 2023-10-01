@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./bottom-bar.component.scss']
 })
 export class BottomBarComponent {
-
+  options = ['Consulting', 'Assessments & Evaluations', 'Reporting', 'Training & Capacity Building', 'Proposal Writing & Fundraising'];
+  selectedOption: string = '';
 }

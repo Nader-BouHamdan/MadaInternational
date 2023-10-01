@@ -1,0 +1,22 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.custom-toolbar {
+  background-color: transparent;
+}
+
+.custom-button {
+  background: none;
+  border: none;
+  font-size: large;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding-right: 5%;
+}
+
+h1 {
+  padding-left: 50%;
+}

@@ -1,0 +1,61 @@
+<section class="container-2grid">
+    <section class="form-section">
+        <h1>Let's have coffee</h1>
+        <h2>Tell us about your needs and we'll schedule a meet up.</h2>
+        <h3>You can also email us at <span style="color: red;">info@madainternational.co</span></h3>
+        <mat-form-field color="warn" appearance="outline">
+            <mat-label class="custom-label">I want to discuss...</mat-label>
+            <mat-select [(ngModel)]="selectedOption">
+                <mat-option *ngFor="let option of options" [value]="option">{{option}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field color="warn">
+            <mat-label>My Name is</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field color="warn">
+            <mat-label>My Email is</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field color="warn">
+            <mat-label>Additional Details ?</mat-label>
+            <textarea matInput style="resize: none;"></textarea>
+        </mat-form-field>
+        <button mat-raised-button color="warn" style="width: 100%; height: 11%">LET'S TALK!</button>
+    </section>
+    <section class="form-section">
+        <img class="image-form" src="../../../assets/cta.jpg">
+    </section>
+</section>
+<mat-divider></mat-divider>
+<section class="container-4grid">
+    <section class="section">
+        <h2 style="font-size: 25px;">Links for NGOs</h2>
+        <ul>
+            <li><a href="https://www.daleel-madani.org/">Daleel Madani</a></li>
+            <li><a href="https://www2.fundsforngos.org/">Funds for NGOs</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/European_Union/">European Union</a></li>
+            <li><a href="http://www.berghof-foundation.org/programmes/middle-east-north-africa/">Berghof Foundation</a></li>
+            <li><a href="https://www.un.org/en/">United Nations</a></li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2 style="font-size: 25px;">Links for Businesses</h2>
+        <ul>
+            <li><a href="https://www.mof.gov.lb/">Ministry of Finance</a></li>
+            <li><a href="https://www.mehe.gov.lb/">Ministry of Education</a></li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2 style="font-size: 25px;">Get in Touch</h2>
+        <ul>
+            <li>Tel/Fax: +961 1 822 766</li>
+            <li>Mobile: +961 3 246926</li>
+            <li>E-mail: <a href="mailto:info@madainternational.co">info@madainternational.co</a></li>
+            <li>Address: Jnah, Behind Spinneys, Katergy Building, 2nd Floor</li>
+        </ul>
+    </section>
+    <section class="section">
+        <img class="image" src="../../../../assets/MADA-logo.svg">
+    </section>
+</section>

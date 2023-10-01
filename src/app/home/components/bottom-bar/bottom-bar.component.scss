@@ -1,0 +1,73 @@
+.form-section{
+    padding: 10%;
+    width: 80%;
+}
+
+.section {
+    padding-left: 20%;
+    text-align: center;
+}
+
+.container-2grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.container-4grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}  
+
+::ng-deep mat-form-field{
+    width: 100%;
+    background-color: transparent;
+    background: none;
+}
+
+.custom-label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+    color: red;
+}
+
+ul{
+    list-style: none; 
+    padding: 0;
+}
+
+.image-form{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    resize: none;
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+    color: red;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 28px;
+}
