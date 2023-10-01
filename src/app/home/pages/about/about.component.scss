@@ -1,0 +1,22 @@
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    
+}

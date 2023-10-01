@@ -10,9 +10,8 @@ import { ProposalWritingAndFundraisingComponent } from './pages/proposal-writing
 
 const routes: Routes = [
   {
-    path: '',
-    component: MainComponent,
-    pathMatch: 'full'
+    path: 'main',
+    component: MainComponent
   },
   {
     path: 'consulting',
@@ -37,6 +36,11 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'main',
+    pathMatch: 'full'
   }
 ];
 
